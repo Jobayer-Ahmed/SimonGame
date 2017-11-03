@@ -1,0 +1,131 @@
+body {
+	background-color: #2b353a;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.simonBoard {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 600px;
+	height: 600px;
+	border: solid 5px black;
+	border-radius: 50%;
+}
+
+.pad {
+	margin: 0;
+	float: left;
+	position: relative;
+	width: 294px;
+	height: 294px;
+	border: solid 3px black;
+	z-index: 8;
+}
+
+.green {
+	background-color: green;
+	border-radius: 300px 0px 0px 0px;
+}
+
+.green-active {
+	background-color: darkgreen !important;
+}
+
+.red {
+	background-color: red;
+	border-radius: 0px 300px 0px 0px;
+}
+
+.red-active{
+	background-color: darkred !important;
+}
+
+.yellow {
+	background-color: yellow;
+	border-radius: 0px 0px 0px 300px;
+}
+
+.yellow-active {
+	background-color: #848c01 !important;
+}
+
+.blue {
+	background-color: blue;
+	border-radius: 0px 0px 300px 0px;
+}
+
+.blue-active {
+	background-color: darkblue !important;
+}
+
+.controls {
+	width: 245px;
+	height: 245px;
+	background-color: #fff;
+	border: 10px solid black;
+	border-radius: 150px;
+	position: absolute;
+	z-index: 10;
+	margin-left: 160px;
+	margin-top: 160px;
+}
+
+.title {
+	margin-top: 30px;
+	font-size: 45px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+.inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.display {
+	border: 2px solid black;
+	border-radius: 10px;
+	color: #fff;
+	width: 60px;
+	height: 45px;
+	font-size: 40px;
+	background-color: #342626;
+}
+
+.start, .strict {
+	margin: 0;
+	margin-left: 20px;
+	text-align: center;
+	width: 55px;
+	height: 55px;
+	border: 2px solid black;
+	border-radius: 30px;
+	color: #000;
+	font-size: 18px;
+	line-height: 55px;
+}
+
+.start {
+	background-color: red;
+}
+
+.strict {
+	background-color: yellow;
+}
+
+.outerSwitch {
+	width: 60px;
+	height: 30px;
+	border: 1px solid black;
+	background-color: #000;
+}
+
+.innerSwitch {
+	width: 30px;
+	height: 30px;
+	background-color: #333;
+}
